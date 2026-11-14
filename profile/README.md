@@ -58,7 +58,9 @@ our adoption rule.
   official-style baseline's spellF1.
 * A change is adopted only if it gains at least +0.01 spellF1 with no seed clearly worse; otherwise it stays
   switched off.  Negative results are documented.
-* Milestone 9 (in progress): robustness to dropped players and a Smart Tagging prior while the ball is hidden.
+* Milestone 9 (complete): an audit against the official repository, a degrader that places ball gaps over dead-ball
+  stretches as estimated without labels (adopted, with the model re-trained for it), set-piece anchoring fixes, and
+  measured-but-off experiments on dropped players, Smart Tagging priors, restart rules and decoder ensembles.
 
 ## Repositories
 
